@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.8.3)
+
+add_subdirectory(./libraryCode)
+add_subdirectory(./AIs)
+add_subdirectory(./games)

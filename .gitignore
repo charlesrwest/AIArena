@@ -1,0 +1,11 @@
+*~
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+*.pb.cc
+*.pb.h
+*.a
+*.so
+Makefile
+./src/AIs/adderAI/adderAI
+./src/games/8BitAdderGame/8BitAdderGameExample

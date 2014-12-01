@@ -1,0 +1,5 @@
+Both game and AI processes are hopefully started around the same time.  
+
+The game process binds the loopback port specified in the preprocessor constant GAMEPORT and then subscribes to the loopback port specified in AIPORT.  The game process then starts periodically publishing the initial perception associated with the start of the game until an action is published by the AI. At that point, it will publish one 
+
+perceptOrActionMessage
