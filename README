@@ -1,0 +1,5 @@
+This library is intended to allow for the evaluation of General Artificial Intelligences by presenting a standard interface for AIs and games meant to test them.  With the development of a suite of games using the interface, it should be really easy to compare the performance of a new general AI design to others.
+
+The fundamental premise is that a general AI should be good at many things (due to its ability to learn and respond intelligently) and it should be possible to write enough games that it would become impractical to make a AI that has special cases for all of them without it being obvious.
+
+It would also be possible later to establish a formal testing service for AIs that have done well on the public game suite.  This would replicate the public game suite results and then test the AI on "black box" games, where the AI designers have no knowledge of the internal workings of the game and receive only their AI's score.
